@@ -3,22 +3,30 @@ Tools and workflow for scripting THUG Pro.
 
 *This does not include adding completely new animations/custom maps or other graphical things*.
 
+## Todo
+* Write CLI tool for extracting/importing into PRX files and remove linked dependency of PreTool.
+* Write Auto Merger which will attempt to merge modded files with updated versions and automatically import them into the new PRX.
+* Deprecate updt.dll and replace with a better way of disabling updates
+
+## Prerequisites
+1. Download https://thmods.com/mod_tools/QB2.1.exe
+2. Download http://www.mediafire.com/file/nszrchf4glxd364/PreTool1_1.zip
+3. Place QB2.1.exe into this directory.
+4. Extract PreTool1_1.zip and place PreTool.exe & PreTool.exe.config into this directory.
+
 ## Explanation
-The code for a lot in THPS games is written in a custom Neversoft bytecode language. THUG Pro devs likely have better tools for modding THPS than we do, but as it stands they are closed source. Luckily however some of it has spread so that we, at least, ***can*** mod - even if it's quite annoying. Below is a brief explanation on things you need to know to get started with scripting THUG Pro.
+The code for a lot in THPS games is written in a custom Neversoft bytecode language. THUG Pro devs *might* have better tools for modding than we do, but in that case they are closed source. Below is a brief explanation on things you need to know to get started with scripting THUG Pro.
 
 #### PRE/PRX Files
 These files are really just archives of... code? Probably other things too, I haven't looked too deep into it. Think of it like a compressed .tar archive. Both THUG Pro and THUG2 standalone (probably other titles) loads these when running the game.
 
-#### PreTool
-*Yikes, I wish PreTool.exe had a CLI option...* Oh you're reading this? Well - you'll see why.
-
+#### PreTool (PreTool.exe)
 Can extract/import and replace files from PRE/PRX.
-
 
 #### QB Binaries
 These are generally compiled script files, think .dll files for example. They exist within PRE/PRX files.
 
-#### ROQ Compiler
+#### ROQ Compiler (QB2.1.exe)
 Compiles and decompiles QB Binaries.
 
 #### Blub Syntax
@@ -28,7 +36,7 @@ Compiles and decompiles QB Binaries.
 
 *No but for real though what kind of syntax is this??*
 
-This is the language you will be writing when scripting, as the "roq" compiler decompiles to and compiles from this *weird* thing. How to write code in this language? Well, try using that *weird* code in front of your face to your advantage. That, and this if you really need it http://www.thps-mods.com/forum/viewtopic.php?f=22&t=806
+This is the language you will be writing when scripting, as the ROQ compiler decompiles to and compiles from this *weird* thing. How to write code in this language? Well, try using that *weird* code in front of your face to your advantage. That, and this might come in handy http://www.thps-mods.com/forum/viewtopic.php?f=22&t=806
 
 ## Tutorial
 
@@ -85,6 +93,6 @@ Eww, ~~Power~~Rotten~~Shell~~Hell. I agree. Actually, I hate Microsoft\**wildcar
 If you get roq.exe and PreTool.exe running on Linux through wine (probably extremely likely), for the love of god, just rewrite my ~~Power~~Rotten~~Shell~~Hell scripts or I won't sleep at night.
 
 ## Credit
-* PreTool.exe by Robert Archibald
-* roq.exe by... *sigh, I'm not sure?*
+* http://www.mediafire.com/file/nszrchf4glxd364/PreTool1_1.zip by Robert Archibald aka %.gone. Found here https://thmods.com/forum/viewtopic.php?t=835
+* https://thmods.com/mod_tools/QB2.1.exe by Roq, a modified version of Blub's https://thmods.com/mod_tools/qb.zip which adds e.g. automatic checksum name generation
 * updt.dll from *THUG Pro Plus* mod, I don't know who made it though
