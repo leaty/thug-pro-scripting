@@ -83,3 +83,7 @@ I would like to note that the most interesting files so far have been:
 Eww, ~~Power~~Rotten~~Shell~~Hell. I agree. Actually, I hate Microsoft\**wildcard*.
 
 If you get roq.exe and PreTool.exe running on Linux through wine (probably extremely likely), for the love of god, just rewrite my ~~Power~~Rotten~~Shell~~Hell scripts or I won't sleep at night.
+
+## Credit
+PreTool.exe by Robert Archibald
+roq.exe by... *sigh, I'm not sure?*
