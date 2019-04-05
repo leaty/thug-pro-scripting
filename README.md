@@ -77,7 +77,7 @@ I would like to note that the most interesting files so far have been:
 1. Make a backup of *THUG Pro\updt.dll*
 2. Replace with *updt.dll* in this repo.
 3. Done, now the game won't patch your modded files.
-4. However, once a patch is released for THUG Pro, you basically can't play online properly, so you'll have to recompile your changes. I recommend comparing your modified .txt files with the updated THUG Pro version to make sure you don't accidentally wipe something new they added. I use *Compare Side-By-Side* Sublime Text extension for this. But yeah, you could `diff` if you're on linux.
+4. However, once a patch is released for THUG Pro, you basically can't play online properly, so you'll have to revert *updt.dll* and patch THUG Pro. After this you need to recompile your changes, I recommend comparing your modified .txt files with the updated THUG Pro version to make sure you don't accidentally wipe something new they added. I use *Compare Side-By-Side* Sublime Text extension for this. But yeah, you could `diff` if you're on linux.
 
 ## To my dear Linux Users
 Eww, ~~Power~~Rotten~~Shell~~Hell. I agree. Actually, I hate Microsoft\**wildcard*.
