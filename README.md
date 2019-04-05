@@ -85,5 +85,6 @@ Eww, ~~Power~~Rotten~~Shell~~Hell. I agree. Actually, I hate Microsoft\**wildcar
 If you get roq.exe and PreTool.exe running on Linux through wine (probably extremely likely), for the love of god, just rewrite my ~~Power~~Rotten~~Shell~~Hell scripts or I won't sleep at night.
 
 ## Credit
-PreTool.exe by Robert Archibald
-roq.exe by... *sigh, I'm not sure?*
+* PreTool.exe by Robert Archibald
+* roq.exe by... *sigh, I'm not sure?*
+* updt.dll from *THUG Pro Plus* mod, I don't know who made it though
