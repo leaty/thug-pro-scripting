@@ -6,5 +6,5 @@ foreach ($file in $files)
 	$outfile = "$($outdir)\$($file.Basename).txt"
 	New-Item -ItemType Directory -Force -Path $outdir | Out-Null
 	echo "Decompiling into $($outfile)"
-	.\QB2.1.exe -d $file.FullName | Out-File -Encoding ASCII $outfile
+	.\roq.exe -d $file.FullName | Out-File -Encoding ASCII $outfile
 }
