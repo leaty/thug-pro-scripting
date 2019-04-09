@@ -9,9 +9,9 @@ Tools and workflow for scripting THUG Pro.
 * Deprecate updt.dll and replace with a better way of disabling updates
 
 ## Prerequisites
-1. Download https://thmods.com/mod_tools/QB2.1.exe
+1. Download http://www.mediafire.com/file/dr4ghaaica9l1ir/QuazzScriptTools.zip
 2. Download http://www.mediafire.com/file/nszrchf4glxd364/PreTool1_1.zip
-3. Place QB2.1.exe into this directory.
+3. Place roq.exe into this directory.
 4. Extract PreTool1_1.zip and place PreTool.exe & PreTool.exe.config into this directory.
 
 ## Explanation
@@ -26,7 +26,7 @@ Can extract/import and replace files from PRE/PRX.
 #### QB Binaries
 These are generally compiled script files, think .dll files for example. They exist within PRE/PRX files.
 
-#### ROQ Compiler (QB2.1.exe)
+#### ROQ Compiler (roq.exe)
 Compiles and decompiles QB Binaries.
 
 #### Blub Syntax
@@ -94,5 +94,5 @@ If you get roq.exe and PreTool.exe running on Linux through wine (probably extre
 
 ## Credit
 * http://www.mediafire.com/file/nszrchf4glxd364/PreTool1_1.zip by Robert Archibald aka %.gone. Found here https://thmods.com/forum/viewtopic.php?t=835
-* https://thmods.com/mod_tools/QB2.1.exe by Roq, a modified version of Blub's https://thmods.com/mod_tools/qb.zip which adds e.g. automatic checksum name generation
+* http://www.mediafire.com/file/dr4ghaaica9l1ir/QuazzScriptTools.zip contains roq.exe by morten1337, a modified version of Roq's https://thmods.com/mod_tools/QB2.1.exe which in itself is a modified version of Blub's https://thmods.com/mod_tools/qb.zip which adds e.g. automatic checksum name generation. Uploaded by Quazz, also found here https://thmods.com/forum/viewtopic.php?t=835
 * updt.dll from *THUG Pro Plus* mod, I don't know who made it though
